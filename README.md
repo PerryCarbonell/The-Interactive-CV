@@ -13,3 +13,5 @@ Notable things to do:
 3. add some more interactivity
 
 Refer to this post for more details: http://wp.me/p2j7fo-3C5
+or
+Just check out cv here: http://pconline-cv-20140628.bitballoon.com/
