@@ -104,18 +104,19 @@ a[data-tooltip][data-placement="bottom"]::after {
 
 /* Typography */
 /**************************/
-h1 {font-family: 'Noto Sans', sans-serif; font-size:26px; font-weight:400; text-transform: uppercase; color:black; padding:0; margin:0;}
-h2 {font-family: 'Noto Sans', sans-serif; font-size:50px; letter-spacing:20px; text-align:center; color:white; font-weight:400; text-transform:uppercase; z-index:10; opacity:.8;}
-h3 {font-family: 'Noto Sans', sans-serif; font-size:16px; line-height:1.9rem; font-weight:300; letter-spacing:6px; text-transform: uppercase; color:black;}
-h4 {font-family: 'Noto Sans', sans-serif; font-size:20px; line-height:1.9rem; font-weight:300; letter-spacing:1px; text-transform: uppercase; color:gainsboro;}  
-p, li, .Scroll {font-family:'Source Sans Pro', sans-serif; font-weight:400; font-size:16px; line-height:24px;}
+body{font-size:20px;}
+h1 {font-family: 'Noto Sans', sans-serif; font-size:2.1em; font-weight:400; text-transform: uppercase; color:black; padding:0; margin:0;}
+h2 {font-family: 'Noto Sans', sans-serif; font-size:3em; letter-spacing:20px; text-align:center; color:white; font-weight:400; text-transform:uppercase; z-index:10; opacity:.8;}
+h3 {font-family: 'Noto Sans', sans-serif; font-size:1em; line-height:1.7rem; font-weight:300; letter-spacing:6px; text-transform: uppercase; color:black;}
+h4 {font-family: 'Noto Sans', sans-serif; font-size:1em; line-height:1.7rem; font-weight:300; letter-spacing:1px; text-transform: uppercase; color:gainsboro;}  
+p, li, .Scroll {font-family:'Source Sans Pro', sans-serif; font-weight:400; font-size:1.2em; line-height:1.7em;letter-spacing:1px;}
 ul {list-style-type: square;}
-.heading{text-align:center; font-family: 'Noto Sans'; padding: 2rem;}
+.heading{text-align:center; font-family: 'Noto Sans'; padding: 2em;}
 .key{color:grey; font-family:'Source Sans Pro', sans-serif; font-weight:400; }
 a:link, a:visited, a:active {color: darkslateblue; text-decoration: none; text-decoration-style:dotted;} 
 a:hover {color: orangered; text-decoration: none;}
-quote{font-family:'Gloria Hallelujah', sans-serif; font-weight:400; font-size:38px; line-height:2.7rem; color: grey; font-style:italic;}
-#projects {font-family:'Dosis', sans-serif; font-weight:400; font-size:33px; line-height:2.7rem; color: grey; text-align: center;vertical-align: middle; display: block;}
+quote{font-family:'Gloria Hallelujah', sans-serif; font-weight:400; font-size:38px; line-height:2.7em; color: grey; font-style:italic;}
+#projects {font-family:'Dosis', sans-serif; font-weight:400; font-size:33px; line-height:2.7em; color: grey; text-align: center;vertical-align: middle; display: block;}
 .likes{line-height:-30px; font-family: 'Source Sans Pro';}
 .Scroll{text-align: center; color: white;}
 a.white:link, a.white:visited, a.white:active {color: white; text-decoration: none;}
@@ -158,87 +159,50 @@ body, .container {margin:0; padding:0;background: rgb(255,255,255);}
 
 /* Section - Parallax */
 /**************************/
-.parallax-one {
-  padding-top: 200px;
-  padding-bottom: 200px;
+
+.parallax{
+  padding-top: 3em;
+  padding-bottom: 3em;
   overflow: hidden;
   position: relative;
   width: 100%;
-  height: 33rem;
   text-align: center;
   vertical-align: middle;
-  line-height: 25rem;
+  line-height: 25em;
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -ms-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;}
+
+.parallax-one{
   background-image: url(http://travel-wire.com/wp-content/uploads/2013/06/Sydney-creative-commons-e1371547818632.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  -ms-background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;}
-.parallax-two {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-  background-image:           url(http://37.media.tumblr.com/313bda6360078360090ef5c3ec48a7c6/tumblr_n6rzsunanL1st5lhmo1_1280.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  -ms-background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;}
+}
+  
+.parallax-two {         
+  background-image: url(http://37.media.tumblr.com/313bda6360078360090ef5c3ec48a7c6/tumblr_n6rzsunanL1st5lhmo1_1280.jpg);
+}
+
 .parallax-three {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
   background-image: url(http://38.media.tumblr.com/324af51a10469f92dab488ace37cd2e1/tumblr_n2k0z8dFw71st5lhmo1_1280.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  -ms-background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;}
+}
+
 .parallax-four {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-  background-image:           url(http://38.media.tumblr.com/bbb1125ba5c39312260c5f2872fc9b95/tumblr_mx3tk07O2Q1st5lhmo1_1280.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  -ms-background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;}
+  background-image: url(http://38.media.tumblr.com/bbb1125ba5c39312260c5f2872fc9b95/tumblr_mx3tk07O2Q1st5lhmo1_1280.jpg);
+ }
+
 .parallax-five {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-  background-image:           url(http://37.media.tumblr.com/a408ad9af259cf827ed4599d60bcb0a9/tumblr_myebwtELvb1st5lhmo1_1280.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  -ms-background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;}
+  background-image: url(http://37.media.tumblr.com/a408ad9af259cf827ed4599d60bcb0a9/tumblr_myebwtELvb1st5lhmo1_1280.jpg);
+}
+
 .parallax-six {
-  padding-top: 20px;
-  padding-bottom: 150px;
+  padding-top: 3em;
+  padding-bottom: 3em;
   overflow: hidden;
   position: relative;
   width: 100%;
-  height: 10rem;
   text-align: center;
   vertical-align: middle;
   line-height: 10rem;
@@ -251,12 +215,11 @@ body, .container {margin:0; padding:0;background: rgb(255,255,255);}
   background-repeat: no-repeat;
   background-position: center center;}
 .parallax-seven {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 3em;
+  padding-bottom: 3em;
   overflow: hidden;
   position: relative;
   width: 100%;
-  height: 33rem;
   text-align: center;
   vertical-align: middle;
   line-height: 25rem;
